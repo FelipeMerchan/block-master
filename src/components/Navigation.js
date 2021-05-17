@@ -4,7 +4,7 @@ import TextLink from './TextLink'
 
 const Navigation = () => {
   return (
-    <nav className="navigation">
+    <nav className="navigation" aria-label="Secciones">
       <ul>
         <li>
           <TextLink
