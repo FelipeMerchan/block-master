@@ -9,7 +9,8 @@
     gap: $space2;
     block-size: 7rem;
     inline-size: 100%;
-    padding: 0 5rem;
+    padding-inline-start: $space3;
+    padding-inline-end:   $space3;
   }
 
   &-logo {

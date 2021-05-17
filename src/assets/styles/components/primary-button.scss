@@ -1,0 +1,22 @@
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .75rem $space3;
+  color: $black;
+  text-transform: uppercase;
+  font: $button;
+  background-color: $primary;
+  border-radius: .25rem;
+
+  i {
+    padding-inline-end: $space;
+    font-size: 1.5rem;
+  }
+
+  &.is-variant {
+    color: $primary;
+    border: 1px solid $primary;
+    background-color: $black2;
+  }
+}

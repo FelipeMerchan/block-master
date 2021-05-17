@@ -1,12 +1,13 @@
 import React from 'react'
 
-import styles from '../src/assets/styles/pages/index.module.scss'
+import BannerSlider from '../src/components/BannerSlider'
 
 const Home = () => {
   return (
     <>
-      <main className={styles.Home}>
-        <h1>Inicio</h1>
+      <main className="main">
+        <BannerSlider />
+        <h1>Todas las películas</h1>
       </main>
     </>
   )
