@@ -8,3 +8,9 @@
 @import './components/text-link.scss';
 @import './components/navigation.scss';
 @import './components/search.scss';
+
+.wrapper {
+  inline-size: 100%;
+  max-inline-size: 75rem;
+  margin: 0 auto;
+}
