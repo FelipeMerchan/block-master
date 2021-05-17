@@ -1,0 +1,14 @@
+.textLink {
+  font: $bodyBold2;
+  color: $white;
+
+  &.is-active {
+
+  }
+
+  &:active,
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
