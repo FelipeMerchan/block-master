@@ -1,9 +1,13 @@
 @import '../tokens/typo.scss';
 @import '../tokens/colors.scss';
 
+:root {
+  font-size: 16px;
+}
+
 body,
 html {
-  font-family: $bodyRegular1;
+  font: $bodyRegular1;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: $white;

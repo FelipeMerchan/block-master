@@ -1,0 +1,24 @@
+.banner {
+  position: relative;
+  inline-size: 100%;
+  border-radius: .5rem;
+  overflow: hidden;
+
+  &-cover {
+
+    img {
+      block-size: 19.375rem;
+      object-fit: cover;
+    }
+  }
+
+  &-buttonWrapper {
+    position: absolute;
+    left:   2rem;
+    bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $space2;
+    inline-size: 27.9rem;
+  }
+}

@@ -53,8 +53,8 @@
     position: relative;
     top: 0;
     left: 0;
-
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -100,6 +100,8 @@
 .slick-initialized .slick-slide
 {
     display: block;
+    margin-inline-start: 12px;
+    margin-inline-end:   12px;
 }
 .slick-loading .slick-slide
 {
