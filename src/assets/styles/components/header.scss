@@ -1,0 +1,16 @@
+@import '../tokens/spacing.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space2;
+  block-size: 7rem;
+  inline-size: 100%;
+  padding: $space3 5rem;
+
+  &-logo {
+    inline-size: 6.625rem;
+    block-size: 4rem;
+  }
+}
