@@ -7,39 +7,21 @@
 //     ╚═╝      ╚═╝   ╚═╝      ╚═════╝
 //
 
-$font: 'avenir-roman', system-ui;
-$font-heavy: 'avenir-heavy', system-ui;
-$font-black: 'avenir-black', system-ui;
-
-// Typos
-$headline-1: 3.2rem;
-$subtitle-1: 1.6rem;
-$body: 1.4rem;
-$button: 1.4rem;
-
 // Typo Bolds
 
-$black: 800;
-$medium: 600;
 $regular: 400;
+$bold: 700;
+$black: 800;
 
-@font-face {
-  font-family: 'avenir-roman';
-  src: url('../../fonts/avenir-roman.otf');
-  font-style: normal;
-  font-weight: $regular;
-}
-
-@font-face {
-  font-family: 'avenir-heavy';
-  src: url('../../fonts/avenir-heavy.otf');
-  font-style: normal;
-  font-weight: $medium;
-}
-
-@font-face {
-  font-family: 'avenir-black';
-  src: url('../../fonts/avenir-black.otf');
-  font-style: normal;
-  font-weight: $black;
-}
+$baseFontFamily: 'Montserrat', system-ui, sans-serif;
+$headline1: $black 2.875rem/3.5rem $baseFontFamily;
+$headline2: $bold 3rem/3.625rem $baseFontFamily;
+$headline3: $bold 2.312rem/1.968rem $baseFontFamily;
+$headline4: $bold 1.75rem/2.133rem $baseFontFamily;
+$headline5: $bold 1.562rem/1.905rem $baseFontFamily;
+$bodyBold1: $bold 1.125rem/1.687rem $baseFontFamily;
+$bodyRegular1: $regular 1.125rem/1.687rem $baseFontFamily;
+$bodyBold2: $bold 1rem/1.187rem $baseFontFamily;
+$bodyRegular2: $regular 1rem/1.375rem $baseFontFamily;
+$button: $bold 1.125rem/1.75rem $baseFontFamily;
+$caption: $regular 0.75rem/1.375rem $baseFontFamily;
